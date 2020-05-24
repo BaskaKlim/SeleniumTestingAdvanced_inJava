@@ -1,1 +1,1 @@
-# SeleniumTestingAdvanced_inJava
+# Learn2Code kurz: Selenium dvanced in Java
