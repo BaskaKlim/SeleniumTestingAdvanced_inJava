@@ -21,9 +21,7 @@ public class WaitForItTest {
     }
 
     @Test
-
-    public void testForInputText() {
-
+    private void testForInputText() {
         driver.get("http://localhost:8888/waitforit.php");
 
     }
