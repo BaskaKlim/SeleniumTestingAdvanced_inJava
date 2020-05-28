@@ -6,7 +6,7 @@ public class WaitForMimonsTests extends TestBase {
 
 
     @Before
-    public void OpenUp() {
+    public void openUp() {
         driver.get("http://localhost:8888/minions.php");
     }
 
@@ -19,7 +19,9 @@ public class WaitForMimonsTests extends TestBase {
         driver.findElement(By.xpath("//div/button[contains(@class,'btn-warning')]")).click();
 
      //wait for elements to be displayed
-     new WebDriverWait(driver,5).until(ExpectedConditions.numberOfElementsToBe((By.xpath("//div[@class='minions']//img")),numberOfMimons));
+     new WebDriverWait(driver,5)
+             .until(ExpectedConditions.numberOfElementsToBe(
+                     (By.xpath("//div[@class='minions']//img")),numberOfMimons));
 
     //validate the expected values and actions
 
@@ -38,7 +40,8 @@ public class WaitForMimonsTests extends TestBase {
         //wait for elements to be displayed  and declare error message for webdriverwait
         new WebDriverWait(driver,5)
                 .withMessage("Timeout waiting for number of mimons to be 10")
-                .until(ExpectedConditions.numberOfElementsToBe((By.xpath("//div[@class='minions']//img")),numberOfMimons));
+                .until(ExpectedConditions.numberOfElementsToBe(
+                        (By.xpath("//div[@class='minions']//img")),numberOfMimons));
 
         //validate the expected values and actions
 
