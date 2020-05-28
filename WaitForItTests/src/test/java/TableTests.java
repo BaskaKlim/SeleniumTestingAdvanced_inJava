@@ -15,7 +15,10 @@ public class TableTests extends TestBase {
         List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
 
         for (WebElement row : rows) {
-            System.out.println(row.getText());
+            JavascriptExecutor js = ((JavascriptExecutor) driver);
+            js.executeScript("arguments[0].style.border='3px solid red'",row);
+
+            
         }
     }
 }
