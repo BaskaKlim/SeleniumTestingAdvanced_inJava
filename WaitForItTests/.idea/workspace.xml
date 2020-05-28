@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WaitForMimonsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+            <state relative-caret-position="306">
+              <caret line="17" column="107" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -169,7 +169,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590700393870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590700402861" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -345,14 +345,11 @@
       <workItem from="1590671615747" duration="981000" />
       <workItem from="1590672614755" duration="116000" />
       <workItem from="1590673530081" duration="892000" />
-      <workItem from="1590690957955" duration="4651000" />
+      <workItem from="1590690957955" duration="5032000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitForItTests - 2020.05.28 at 20h 48m 17s.xml">
-      <configuration name="WaitForItTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WaitForItTests - 2020.05.28 at 20h 48m 40s.xml">
       <configuration name="WaitForItTests" configurationId="JUnit" />
     </history-entry>
@@ -380,9 +377,12 @@
     <history-entry file="WaitForMimonsTests - 2020.05.28 at 23h 05m 00s.xml">
       <configuration name="WaitForMimonsTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WaitForMimonsTests - 2020.05.28 at 23h 12m 06s.xml">
+      <configuration name="WaitForMimonsTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64522000" />
+    <option name="totallyTimeSpent" value="64903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -397,7 +397,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaitForMimonsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="306">
+          <caret line="17" column="107" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="107" />
         </state>
       </provider>
     </entry>

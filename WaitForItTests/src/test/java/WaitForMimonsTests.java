@@ -15,7 +15,7 @@ public class WaitForMimonsTests extends TestBase {
     public void itShouldShowExactNumbersOfMimons(){
     //actions
         int numberOfMimons= 5;
-        driver.findElement(By.xpath("//div/input[@type='number']")).sendKeys("5");
+        driver.findElement(By.xpath("//div/input[@type='number']")).sendKeys(String.valueOf(numberOfMimons));
         driver.findElement(By.xpath("//div/button[contains(@class,'btn-warning')]")).click();
 
      //wait for elements to be displayed
