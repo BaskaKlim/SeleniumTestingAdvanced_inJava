@@ -39,7 +39,7 @@ public class WaitForItTests extends TestBase {
 
         //assert the value that is expected
         Assert.assertFalse(driver.findElement(By.id("startWaitForProperty")).isEnabled());
-
+        Assert.assertTrue(driver.findElement(By.id("startWaitForProperty")).isDisplayed());
     }
 
 }
