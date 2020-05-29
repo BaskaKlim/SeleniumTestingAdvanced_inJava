@@ -16,12 +16,14 @@ public class TableTests extends TestBase {
 
         for (WebElement row : rows) {
             if (row.getText().contains("Florian")) {
-
-                JavascriptExecutor js = ((JavascriptExecutor) driver);
-                js.executeScript("arguments[0].style.border='3px solid red'", row);
-
+                highlight(row);
             }
 
         }
     }
+
+    private Object highlight(WebElement row) {
+        return ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid red'", row);
+    }
+
 }

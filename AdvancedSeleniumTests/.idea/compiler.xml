@@ -20,6 +20,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="automation-webtesting-selenium" />
         <module name="L2C - Automatizovane testovanie webu selenium" />
+        <module name="selenium-advanced-java" />
       </profile>
     </annotationProcessing>
   </component>

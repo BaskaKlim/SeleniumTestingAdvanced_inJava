@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="342">
+              <caret line="19" column="76" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -106,51 +106,36 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="selenium-advanced-java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="selenium-advanced-java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="selenium-advanced-java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="selenium-advanced-java" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="automationwebtestingselenium" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="automation-webtesting-selenium" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="drivers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +147,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590703576638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590772053704" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -338,14 +323,12 @@
       <workItem from="1590671615747" duration="981000" />
       <workItem from="1590672614755" duration="116000" />
       <workItem from="1590673530081" duration="892000" />
-      <workItem from="1590690957955" duration="7613000" />
+      <workItem from="1590690957955" duration="8122000" />
+      <workItem from="1590771599929" duration="260000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitForMimonsTests - 2020.05.28 at 22h 55m 21s.xml">
-      <configuration name="WaitForMimonsTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WaitForMimonsTests - 2020.05.28 at 23h 03m 39s.xml">
       <configuration name="WaitForMimonsTests" configurationId="JUnit" />
     </history-entry>
@@ -373,15 +356,17 @@
     <history-entry file="TableTests - 2020.05.28 at 23h 58m 40s.xml">
       <configuration name="TableTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TableTests - 2020.05.29 at 00h 06m 24s.xml">
+      <configuration name="TableTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67484000" />
+    <option name="totallyTimeSpent" value="68253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20600858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -390,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -512,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WaitForHatTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaitForItTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -526,10 +504,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WaitForHatTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="342">
+          <caret line="19" column="76" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="70" />
         </state>
       </provider>
     </entry>
