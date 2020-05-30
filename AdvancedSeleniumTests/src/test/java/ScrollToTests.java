@@ -25,4 +25,11 @@ public class ScrollToTests extends TestBase {
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].scrollIntoView(true)", lastRow);
     }
+
+    @Test
+
+    public void scrollDownByExactNumberOfPixel() {
+        JavascriptExecutor js = ((JavascriptExecutor) driver);
+        js.executeScript("window.scrollBy(0,200)");
+    }
 }
