@@ -35,4 +35,14 @@ public class ScrollToTests extends TestBase {
             js.executeScript("window.scrollBy(0,200)");
         }
     }
+
+    @Test
+
+    public void scrollToEndByUsingPixelHeightOfWebPage() {
+        JavascriptExecutor js = ((JavascriptExecutor) driver);
+         //find out how many pixel has dynamic website for testing its end element
+        System.out.println(js.executeScript("return document.body.scrollHeight"));
+
+        
+    }
 }
