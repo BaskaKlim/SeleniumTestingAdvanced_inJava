@@ -17,4 +17,12 @@ public class ScrollToTests extends TestBase {
         js.executeScript("arguments[0].scrollIntoView()", lastRow);
     }
 
+    @Test
+
+    public void scrollToExactRow() {
+        WebElement lastRow = driver.findElement(By.xpath("//table/tbody/tr[5]"));
+
+        JavascriptExecutor js = ((JavascriptExecutor) driver);
+        js.executeScript("arguments[0].scrollIntoView(true)", lastRow);
+    }
 }
