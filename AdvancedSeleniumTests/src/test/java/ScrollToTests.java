@@ -30,6 +30,9 @@ public class ScrollToTests extends TestBase {
 
     public void scrollDownByExactNumberOfPixel() {
         JavascriptExecutor js = ((JavascriptExecutor) driver);
-        js.executeScript("window.scrollBy(0,200)");
+
+        for (int i = 0; i < 4; i++) {
+            js.executeScript("window.scrollBy(0,200)");
+        }
     }
 }
