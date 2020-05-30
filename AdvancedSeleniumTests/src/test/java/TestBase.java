@@ -2,8 +2,6 @@ import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 
-import static junit.framework.TestCase.*;
-
 public class TestBase {
 
     public WebDriver driver;
@@ -18,7 +16,7 @@ public class TestBase {
 
     }
 
-    @After
+    /*@After
 
     public void tearDown() {
         String verificationErrorString = verificationErrors.toString();
@@ -28,6 +26,6 @@ public class TestBase {
         driver.close();
         driver.quit();
     }
-
+*/
 
 }

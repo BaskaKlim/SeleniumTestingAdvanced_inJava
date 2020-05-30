@@ -18,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EventListenerActionsTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BlurTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="24" />
+            <state relative-caret-position="288">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -77,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/test/java/WaitForItTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/BlurTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EventListenerActionsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ScrollToTests.java" />
       </list>
     </option>
   </component>
@@ -158,7 +159,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590776466029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590871765810" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -193,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EventListenerActionsTests">
+  <component name="RunManager" selected="JUnit.ScrollToTests">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -246,10 +247,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="automation-webtesting-selenium" />
+    <configuration name="ScrollToTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-advanced-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TableTests" />
+      <option name="MAIN_CLASS_NAME" value="ScrollToTests" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -259,10 +260,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitForItTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="automation-webtesting-selenium" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitForItTests" />
+      <option name="MAIN_CLASS_NAME" value="TableTests" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -309,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScrollToTests" />
         <item itemvalue="JUnit.EventListenerActionsTests" />
         <item itemvalue="JUnit.BlurTest" />
         <item itemvalue="JUnit.TableTests" />
         <item itemvalue="JUnit.WaitForMimonsTests" />
-        <item itemvalue="JUnit.WaitForItTests" />
       </list>
     </recent_temporary>
   </component>
@@ -335,17 +336,11 @@
       <workItem from="1590672614755" duration="116000" />
       <workItem from="1590673530081" duration="892000" />
       <workItem from="1590690957955" duration="8122000" />
-      <workItem from="1590771599929" duration="2230000" />
+      <workItem from="1590771599929" duration="3109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitForMimonsTests - 2020.05.28 at 23h 12m 06s.xml">
-      <configuration name="WaitForMimonsTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaitForMimonsTests - 2020.05.28 at 23h 48m 36s.xml">
-      <configuration name="WaitForMimonsTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TableTests - 2020.05.28 at 23h 48m 45s.xml">
       <configuration name="TableTests" configurationId="JUnit" />
     </history-entry>
@@ -370,9 +365,15 @@
     <history-entry file="BlurTest - 2020.05.29 at 19h 52m 44s.xml">
       <configuration name="BlurTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventListenerActionsTests - 2020.05.29 at 20h 20m 02s.xml">
+      <configuration name="EventListenerActionsTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventListenerActionsTests - 2020.05.29 at 20h 21m 08s.xml">
+      <configuration name="EventListenerActionsTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70223000" />
+    <option name="totallyTimeSpent" value="71102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -404,7 +405,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
@@ -516,13 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaitForItTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -530,17 +524,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BlurTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/EventListenerActionsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="24" />
+        <state relative-caret-position="252">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventListenerActionsTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BlurTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" selection-start-line="22" selection-start-column="7" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
