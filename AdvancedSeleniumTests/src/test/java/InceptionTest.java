@@ -16,6 +16,8 @@ public class InceptionTest extends TestBase {
     @Test
 
     public void testMultipleWindowsShowing() {
+        String parentWindow = driver.getWindowHandle();
+
         driver.findElement(By.id("letsGoDeeper")).click();
 
         //wait for all windows I expected
@@ -23,12 +25,18 @@ public class InceptionTest extends TestBase {
 
         //switch to new window to test webelement input
         driver.getWindowHandles();
-        for (String window : driver.getWindowHandles()) {
-            driver.switchTo().window(window);
+        for (int i = 0; i < 5; i++) {
 
+            for (String window : driver.getWindowHandles()) {
+                driver.switchTo().window(window);
+
+            }
+            // test action
+            driver.findElement(By.xpath("//input[1]")).sendKeys("testovaci text");
+            driver.findElement(By.id("letsGoDeeper")).click();
         }
-        // test action
-        driver.findElement(By.xpath("//input[1]")).sendKeys("testovaci text");
-
+        driver.close();
+        driver.switchTo().window(parentWindow);
     }
+
 }
