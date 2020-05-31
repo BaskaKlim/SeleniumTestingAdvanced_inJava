@@ -36,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/InceptionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="393">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -87,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/test/java/DragAndDropElementTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NemenneTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/RadioButtonTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WaitForMimonsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/WaitForHatTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TableTests.java" />
@@ -97,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScrollToTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/InceptionTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -178,7 +187,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590957132018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590958419748" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -358,14 +367,11 @@
       <workItem from="1590672614755" duration="116000" />
       <workItem from="1590673530081" duration="892000" />
       <workItem from="1590690957955" duration="8122000" />
-      <workItem from="1590771599929" duration="8485000" />
+      <workItem from="1590771599929" duration="9562000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScrollToTests_scrollDownByExactNumberOfPixel - 2020.05.30 at 23h 05m 16s.xml">
-      <configuration name="ScrollToTests.scrollDownByExactNumberOfPixel" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScrollToTests_scrollToEndByUsingPixelHeightOfWebPage - 2020.05.30 at 23h 42m 58s.xml">
       <configuration name="ScrollToTests.scrollToEndByUsingPixelHeightOfWebPage" configurationId="JUnit" />
     </history-entry>
@@ -393,14 +399,18 @@
     <history-entry file="InceptionTest - 2020.05.31 at 22h 30m 20s.xml">
       <configuration name="InceptionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InceptionTest - 2020.05.31 at 22h 32m 29s.xml">
+      <configuration name="InceptionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76478000" />
+    <option name="totallyTimeSpent" value="77555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,8 +419,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19863014" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -426,7 +436,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
@@ -515,13 +525,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite.java" />
     <entry file="file://$PROJECT_DIR$/L2C - Automatizovane testovanie webu selenium.iml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WaitForMimonsTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -580,8 +583,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InceptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="393">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
