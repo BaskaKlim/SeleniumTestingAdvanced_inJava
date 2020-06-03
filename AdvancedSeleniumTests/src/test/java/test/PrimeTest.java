@@ -4,7 +4,6 @@ import java.io.*;
 import org.apache.poi.ss.usermodel.*;
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.*;
 import helpers.*;
 
 public class PrimeTest extends TestBase {
@@ -21,26 +20,31 @@ public class PrimeTest extends TestBase {
     @Test
     public void itShoudlTestIfNumberIsPrime() throws IOException {
 
-        // basic automation test
         WebElement numberInput = driver.findElement(By.xpath("//input[@type='number']"));
         WebElement button = driver.findElement(By.cssSelector("button.btn"));
         WebElement resultText = driver.findElement(By.cssSelector("div.result"));
+        
 
-        numberInput.sendKeys("5");
-        button.click();
-        new WebDriverWait(driver, 5).until(ExpectedConditions.invisibilityOfAllElements());
-
-
-        //preparation of data - inicialization of ExelReader and test if it works
+        //preparation of data - inicialization of ExelReader
         ExcelReader primeExcelReader = new ExcelReader(TEST_DATA_PATH);
         Sheet sheet = primeExcelReader.getSheetByName(SHEET);
 
+        //read each cell in row from sheet prime
         for (Row cells : sheet) {
             if (cells.getRowNum() == 0) {
                 continue;
-        }
-        System.out.println(cells.getCell(0).getNumericCellValue());
-    }
+            }
+         // set up inputs : clear, send the value from current excel cell
+            numberInput.clear();
+            numberInput.sendKeys(String.valueOf((int) cells.getCell(0).getNumericCellValue()));
 
-}
+         // click on prime validation button
+            button.click();
+
+         // check the values of our test - print them to the console
+            Boolean expectedPrimeStatus = cells.getCell(1).getBooleanCellValue();
+            System.out.println(expectedPrimeStatus);
+        }
+
+    }
 }
