@@ -4,6 +4,7 @@ import java.io.*;
 import org.apache.poi.ss.usermodel.*;
 import org.junit.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
 import helpers.*;
 
 public class PrimeTest extends TestBase {
@@ -22,8 +23,6 @@ public class PrimeTest extends TestBase {
 
         WebElement numberInput = driver.findElement(By.xpath("//input[@type='number']"));
         WebElement button = driver.findElement(By.cssSelector("button.btn"));
-        WebElement resultText = driver.findElement(By.cssSelector("div.result"));
-        
 
         //preparation of data - inicialization of ExelReader
         ExcelReader primeExcelReader = new ExcelReader(TEST_DATA_PATH);
@@ -41,9 +40,17 @@ public class PrimeTest extends TestBase {
          // click on prime validation button
             button.click();
 
-         // check the values of our test - print them to the console
+         // check the values of our test - compare result text variations according to expectPrimeStatus
             Boolean expectedPrimeStatus = cells.getCell(1).getBooleanCellValue();
-            System.out.println(expectedPrimeStatus);
+
+            if(expectedPrimeStatus == true){
+                new WebDriverWait(driver,5).until(ExpectedConditions.
+                        visibilityOfElementLocated(By.xpath("//div[text()='Optimus approves']")));
+            }   else {
+                new WebDriverWait(driver,5).until(ExpectedConditions.
+                        visibilityOfElementLocated(By.xpath("//div[text()='Optimus is sad']")));
+                
+            }
         }
 
     }
