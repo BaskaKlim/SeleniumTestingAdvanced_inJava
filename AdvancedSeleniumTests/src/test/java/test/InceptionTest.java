@@ -18,8 +18,10 @@ public class InceptionTest extends TestBase {
     @Test
 
     public void testMultipleWindowsShowing() {
+        //test variables inicialization
         String parentWindow = driver.getWindowHandle();
 
+        //action
         driver.findElement(By.id("letsGoDeeper")).click();
 
         //wait for all windows I expected

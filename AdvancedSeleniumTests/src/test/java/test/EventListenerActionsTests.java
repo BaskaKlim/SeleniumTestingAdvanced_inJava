@@ -14,7 +14,6 @@ public class EventListenerActionsTests extends TestBase {
     @Test
 
     public void testEventListenerActionForClick() {
-        
         JavascriptExecutor js = ((JavascriptExecutor) driver);
         js.executeScript("arguments[0].click()", driver.findElement(By.id("startWaitForText")));
 
