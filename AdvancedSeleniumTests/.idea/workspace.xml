@@ -19,37 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ExcelReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="6" selection-start-column="3" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InceptionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="360">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExcelReader.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PrimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="378">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -98,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/test/java/InceptionTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PrimeTest.java" />
       </list>
     </option>
   </component>
@@ -128,8 +111,8 @@
     <option name="runMavenInBackground" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-30" />
-    <option name="y" value="23" />
+    <option name="x" value="103" />
+    <option name="y" value="44" />
     <option name="width" value="1440" />
     <option name="height" value="822" />
   </component>
@@ -195,7 +178,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591046473765" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591215361804" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -231,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelReader">
+  <component name="RunManager" selected="JUnit.PrimeTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -293,12 +276,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollToTests.scrollDownByExactNumberOfPixel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-advanced-java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScrollToTests" />
-      <option name="METHOD_NAME" value="scrollDownByExactNumberOfPixel" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="PrimeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -345,11 +327,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrimeTest" />
         <item itemvalue="Application.ExcelReader" />
         <item itemvalue="JUnit.InceptionTest" />
         <item itemvalue="JUnit.InceptionTest.testMultipleWindowsShowing" />
         <item itemvalue="JUnit.ScrollToTests.scrollToEndByUsingPixelHeightOfWebPage" />
-        <item itemvalue="JUnit.ScrollToTests.scrollDownByExactNumberOfPixel" />
       </list>
     </recent_temporary>
   </component>
@@ -372,50 +354,50 @@
       <workItem from="1590673530081" duration="892000" />
       <workItem from="1590690957955" duration="8122000" />
       <workItem from="1590771599929" duration="11473000" />
-      <workItem from="1591043439695" duration="2610000" />
+      <workItem from="1591043439695" duration="4691000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScrollToTests_scrollToEndByUsingPixelHeightOfWebPage - 2020.05.30 at 23h 42m 58s.xml">
-      <configuration name="ScrollToTests.scrollToEndByUsingPixelHeightOfWebPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrollToTests_scrollToEndByUsingPixelHeightOfWebPage - 2020.05.30 at 23h 44m 06s.xml">
-      <configuration name="ScrollToTests.scrollToEndByUsingPixelHeightOfWebPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrollToTests_scrollToEndByUsingPixelHeightOfWebPage - 2020.05.31 at 21h 44m 06s.xml">
-      <configuration name="ScrollToTests.scrollToEndByUsingPixelHeightOfWebPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InceptionTest - 2020.05.31 at 22h 01m 08s.xml">
-      <configuration name="InceptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InceptionTest - 2020.05.31 at 22h 11m 45s.xml">
-      <configuration name="InceptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InceptionTest - 2020.05.31 at 22h 28m 28s.xml">
-      <configuration name="InceptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InceptionTest - 2020.05.31 at 22h 29m 01s.xml">
-      <configuration name="InceptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InceptionTest - 2020.05.31 at 22h 29m 15s.xml">
-      <configuration name="InceptionTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InceptionTest - 2020.05.31 at 22h 30m 20s.xml">
       <configuration name="InceptionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InceptionTest - 2020.05.31 at 22h 32m 29s.xml">
       <configuration name="InceptionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 34m 27s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 35m 45s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 36m 32s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 37m 21s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 37m 45s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 39m 48s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 40m 22s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeTest - 2020.06.01 at 23h 42m 45s.xml">
+      <configuration name="PrimeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82076000" />
+    <option name="totallyTimeSpent" value="84157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-30" y="23" width="1440" height="822" extended-state="0" />
+    <frame x="103" y="44" width="1440" height="822" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21173105" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,27 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="6" selection-start-column="3" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/InceptionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -600,10 +561,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ScrollToTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TableTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="6" selection-start-column="3" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ExcelReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PrimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
