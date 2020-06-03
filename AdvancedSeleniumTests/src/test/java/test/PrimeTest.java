@@ -33,25 +33,32 @@ public class PrimeTest extends TestBase {
             if (cells.getRowNum() == 0) {
                 continue;
             }
-         // set up inputs : clear, send the value from current excel cell
-            numberInput.clear();
-            numberInput.sendKeys(String.valueOf((int) cells.getCell(0).getNumericCellValue()));
 
-         // click on prime validation button
-            button.click();
-
-         // check the values of our test - compare result text variations according to expectPrimeStatus
+            //inicialize variables for test
+            int number = (int) cells.getCell(0).getNumericCellValue();
             Boolean expectedPrimeStatus = cells.getCell(1).getBooleanCellValue();
 
-            if(expectedPrimeStatus == true){
-                new WebDriverWait(driver,5).until(ExpectedConditions.
-                        visibilityOfElementLocated(By.xpath("//div[text()='Optimus approves']")));
-            }   else {
-                new WebDriverWait(driver,5).until(ExpectedConditions.
-                        visibilityOfElementLocated(By.xpath("//div[text()='Optimus is sad']")));
-                
-            }
+            // actions: set up inputs -> clear, send the value from current excel cell,click on prime validation button
+            numberInput.clear();
+            numberInput.sendKeys(String.valueOf(number));
+            button.click();
+
+            // check the values of our test - compare result text variations according to expectPrimeStatus
+            checkResult(expectedPrimeStatus);
         }
 
     }
+
+    /**        private methods                              **/
+    private void checkResult(boolean expectedPrimeStatus) {
+        if (expectedPrimeStatus == true) {
+            new WebDriverWait(driver, 5).until(ExpectedConditions.
+                    visibilityOfElementLocated(By.xpath("//div[text()='Optimus approves']")));
+        } else {
+            new WebDriverWait(driver, 5).until(ExpectedConditions.
+                    visibilityOfElementLocated(By.xpath("//div[text()='Optimus is sad']")));
+
+        }
+    }
+
 }
