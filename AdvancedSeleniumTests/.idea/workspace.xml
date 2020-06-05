@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/DummyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="271">
+              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -176,7 +176,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591391344321" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591391873272" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -358,20 +358,11 @@
       <workItem from="1590690957955" duration="8122000" />
       <workItem from="1590771599929" duration="11473000" />
       <workItem from="1591043439695" duration="10032000" />
-      <workItem from="1591389370258" duration="709000" />
+      <workItem from="1591389370258" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeTest - 2020.06.01 at 23h 40m 22s.xml">
-      <configuration name="PrimeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeTest - 2020.06.01 at 23h 42m 45s.xml">
-      <configuration name="PrimeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeTest - 2020.06.03 at 22h 16m 16s.xml">
-      <configuration name="PrimeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeTest - 2020.06.03 at 22h 58m 36s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
     </history-entry>
@@ -393,15 +384,23 @@
     <history-entry file="PrimeTest - 2020.06.03 at 23h 40m 27s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DummyTests - 2020.06.05 at 23h 07m 33s.xml">
+      <configuration name="DummyTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DummyTests - 2020.06.05 at 23h 08m 25s.xml">
+      <configuration name="DummyTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DummyTests - 2020.06.05 at 23h 08m 57s.xml">
+      <configuration name="DummyTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90207000" />
+    <option name="totallyTimeSpent" value="90827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +409,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/DummyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="271">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
         </state>
       </provider>
     </entry>
