@@ -7,14 +7,14 @@ import categories.*;
 import test.*;
 
 @RunWith(Categories.class)
-@Categories.IncludeCategory(SmokeTests.class)
+@Categories.IncludeCategory(ReleaseTests.class)
 @Suite.SuiteClasses(
-        {DummyTests.class,
-        WaitForItTests.class
+        {
+       DummyTests.class
         }
 
 )
-public class SmokeTestsSuite {
+public class ReleaseTestsSuite {
     
 
     
