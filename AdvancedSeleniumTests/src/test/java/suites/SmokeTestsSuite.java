@@ -6,6 +6,7 @@ import org.junit.runners.*;
 import categories.*;
 import test.*;
 
+//v JUnit4 su to categories v JUnit Jupiter teda 5 su to tags
 @RunWith(Categories.class)
 @Categories.IncludeCategory(SmokeTests.class)
 @Suite.SuiteClasses(
