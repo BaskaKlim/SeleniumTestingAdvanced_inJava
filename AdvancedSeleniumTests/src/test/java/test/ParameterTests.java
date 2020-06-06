@@ -2,10 +2,12 @@ package test;
 
 import java.util.*;
 import org.junit.*;
+import org.junit.runner.*;
 import org.junit.runners.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
+@RunWith(Parameterized.class)
 public class ParameterTests extends TestBase {
 
     int number;
