@@ -1,8 +1,10 @@
 package test;
 
 import org.junit.*;
+import org.junit.experimental.categories.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
+import categories.*;
 
 public class WaitForItTests extends TestBase {
 
@@ -13,6 +15,7 @@ public class WaitForItTests extends TestBase {
 
     }
 
+    @Category(SmokeTests.class)
     @Test
     public void waitForInputTest() throws InterruptedException {
         //action that I am testing

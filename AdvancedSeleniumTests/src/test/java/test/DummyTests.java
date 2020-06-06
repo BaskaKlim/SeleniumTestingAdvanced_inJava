@@ -1,6 +1,8 @@
 package test;
 
 import org.junit.*;
+import org.junit.experimental.categories.*;
+import categories.*;
 
 public class DummyTests {
 
@@ -19,6 +21,7 @@ public class DummyTests {
         System.out.println("setup before test");
     }
 
+    @Category(SmokeTests.class)
     @Test
     public void testPrintA() {
         System.out.println("A");
