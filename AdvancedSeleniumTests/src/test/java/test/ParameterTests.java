@@ -7,12 +7,15 @@ import org.junit.runners.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
+
+//anotacia pre paramatricky test
 @RunWith(Parameterized.class)
 public class ParameterTests extends TestBase {
 
     int number;
     boolean expectedPrimeStatus;
 
+    //parametricka metoda, ktora nam vrati paramatre
     @Parameterized.Parameters
     public static List<Object> getData() {
         return Arrays.asList(new Object[][] {{1, true}, {3, true}, {55, false}, {67, true}, {782, false}, {12, false}});
