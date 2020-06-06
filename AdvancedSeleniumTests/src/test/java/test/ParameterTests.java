@@ -11,18 +11,20 @@ import org.openqa.selenium.support.ui.*;
 public class ParameterTests extends TestBase {
 
     int number;
-    Boolean expectedPrimeStatus;
+    boolean expectedPrimeStatus;
 
     @Parameterized.Parameters
-    public static List<Integer> getData(){
-        return Arrays.asList(1,3,55,67,783,11);
+    public static List<Object> getData() {
+        return Arrays.asList(new Object[][] {{1, true}, {3, true}, {55, false}, {67, true}, {782, false}, {12, false}});
     }
 
     //konstruktor, ktory sa mi vzdy pri zavolani triedy spusti a preda jej parameter vdaka anotacii vyssie
-    public  ParameterTests(int number){
+    public ParameterTests(int number, boolean expectedPrimeStatus) {
         this.number = number;
+        this.expectedPrimeStatus = expectedPrimeStatus;
 
     }
+
     @Before
     public void openUp() {
         driver.get("http://localhost:8888/primenumber.php");
@@ -34,17 +36,17 @@ public class ParameterTests extends TestBase {
         WebElement numberInput = driver.findElement(By.xpath("//input[@type='number']"));
         WebElement button = driver.findElement(By.cssSelector("button.btn"));
 
-
         numberInput.clear();
         numberInput.sendKeys(String.valueOf(number));
         button.click();
 
-      
-      //  checkResult(expectedPrimeStatus);
+        checkResult(expectedPrimeStatus);
     }
 
-    /**private methods**/
-    
+    /**
+     * private methods
+     **/
+
     private void checkResult(boolean expectedPrimeStatus) {
         if (expectedPrimeStatus == true) {
             new WebDriverWait(driver, 5).until(ExpectedConditions.
