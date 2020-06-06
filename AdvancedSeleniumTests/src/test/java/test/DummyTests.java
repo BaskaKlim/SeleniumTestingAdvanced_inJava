@@ -30,6 +30,7 @@ public class DummyTests {
         System.out.println(failed);
     }
 
+    @Category({SmokeTests.class, ReleaseTests.class})
     @Test
     public void testPrintB() {
         System.out.println("B");
