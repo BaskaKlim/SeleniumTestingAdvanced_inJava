@@ -2,11 +2,16 @@ package test;
 
 import org.junit.*;
 import org.junit.experimental.categories.*;
+import org.junit.rules.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 import categories.*;
 
 public class WaitForItTests extends TestBase {
+
+    //nastavim si pravidlo, ze ocakavam expeption
+    @Rule
+    public ExpectedException expectedException = ExpectedException.none();
 
     @Before
 
@@ -14,6 +19,19 @@ public class WaitForItTests extends TestBase {
         driver.get("http://localhost:8888/waitforit.php");
 
     }
+
+    @Test
+    public void testTitle(){
+        String title  = driver.findElement(By.xpath("//h1")).getText();
+        //v tomto teste ocakavam tento konkretny typ chyby - exception
+        expectedException.expect(ComparisonFailure.class);
+        expectedException.expectMessage("Title nesedi");
+
+        Assert.assertEquals("Title nesedi", "WAIT FOR IT !!!",title );
+
+    }
+    
+
 
     @Category(SmokeTests.class)
     @Test
