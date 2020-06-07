@@ -2,8 +2,11 @@ package test;
 
 import org.junit.*;
 import org.junit.experimental.categories.*;
+import org.junit.runner.*;
+import com.google.code.tempusfugit.concurrency.*;
 import categories.*;
 
+@RunWith(ConcurrentTestRunner.class)
 public class DummyTests {
 
     static int numberOfFailTest;

@@ -27,29 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/DummyTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/SmokeTestsSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="108">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/suites/ReleaseTestsSuite.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="335">
+              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -96,7 +87,6 @@
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ScrollToTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/InceptionTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ExcelReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrimeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/ExcelReader.java" />
@@ -106,9 +96,10 @@
         <option value="$PROJECT_DIR$/src/test/java/test/ParameterTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/categories/SmokeTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/WaitForItTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/DummyTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/ReleaseTestsSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/suites/SmokeTestsSuite.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test/DummyTests.java" />
       </list>
     </option>
   </component>
@@ -215,7 +206,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591477072943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591540854419" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -257,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReleaseTestsSuite">
+  <component name="RunManager" selected="JUnit.DummyTests">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -397,10 +388,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DummyTests" />
         <item itemvalue="JUnit.ReleaseTestsSuite" />
         <item itemvalue="JUnit.SmokeTestsSuite" />
         <item itemvalue="JUnit.ParameterTests" />
-        <item itemvalue="JUnit.DummyTests" />
         <item itemvalue="JUnit.PrimeTest" />
       </list>
     </recent_temporary>
@@ -425,7 +416,7 @@
       <workItem from="1590690957955" duration="8122000" />
       <workItem from="1590771599929" duration="11473000" />
       <workItem from="1591043439695" duration="10032000" />
-      <workItem from="1591389370258" duration="5517000" />
+      <workItem from="1591389370258" duration="6296000" />
     </task>
     <servers />
   </component>
@@ -462,13 +453,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95015000" />
+    <option name="totallyTimeSpent" value="95794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,7 +467,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,13 +574,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TableTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite.java" />
     <entry file="file://$PROJECT_DIR$/L2C - Automatizovane testovanie webu selenium.iml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/TableTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -689,6 +672,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/SmokeTestsSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/suites/ReleaseTestsSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -696,17 +686,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/DummyTests.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/suites/SmokeTestsSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/DummyTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="108">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
