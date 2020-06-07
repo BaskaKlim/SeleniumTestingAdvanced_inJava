@@ -8,9 +8,9 @@ import com.google.code.tempusfugit.concurrency.*;
 import com.google.code.tempusfugit.concurrency.annotations.*;
 
 public class RunConcurrentlyTests extends TestBase {
-
-    @Rule
-    public RepeatingRule repeatedly = new RepeatingRule();
+    
+    @Rule public ConcurrentRule concurrently = new ConcurrentRule();
+    @Rule public RepeatingRule repeatedly = new RepeatingRule();
 
     private static final AtomicInteger counter = new AtomicInteger();
 
@@ -22,7 +22,9 @@ public class RunConcurrentlyTests extends TestBase {
     }
 
     @Test
+    @Concurrent (count = 5)
     @Repeating(repetition = 10)
+
 
     public void waitForInputTest() throws InterruptedException {
 
