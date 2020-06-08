@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/SinCityTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="128">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/Sin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="252">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -183,7 +183,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591648989290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591649482265" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -399,17 +399,11 @@
       <workItem from="1590690957955" duration="8122000" />
       <workItem from="1590771599929" duration="11473000" />
       <workItem from="1591043439695" duration="10032000" />
-      <workItem from="1591389370258" duration="14167000" />
+      <workItem from="1591389370258" duration="14739000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WaitForItTests - 2020.06.07 at 20h 18m 06s.xml">
-      <configuration name="WaitForItTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunConcurrentlyTests - 2020.06.07 at 20h 27m 31s.xml">
-      <configuration name="RunConcurrentlyTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunConcurrentlyTests - 2020.06.07 at 20h 30m 49s.xml">
       <configuration name="RunConcurrentlyTests" configurationId="JUnit" />
     </history-entry>
@@ -434,9 +428,15 @@
     <history-entry file="SinCityTests - 2020.06.08 at 22h 38m 23s.xml">
       <configuration name="SinCityTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SinCityTests - 2020.06.08 at 22h 40m 39s.xml">
+      <configuration name="SinCityTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinCityTests - 2020.06.08 at 22h 43m 13s.xml">
+      <configuration name="SinCityTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103665000" />
+    <option name="totallyTimeSpent" value="104237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -693,15 +693,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/Sin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="252">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/SinCityTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="128">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>

@@ -1,10 +1,15 @@
 package test;
 
+import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import models.*;
 
 public class SinCityTests extends TestBase {
+
+
+    public List<String> spiderSinTags = new ArrayList<String>();
+
 
     @Before
 
@@ -12,6 +17,7 @@ public class SinCityTests extends TestBase {
         driver.get("http://localhost:8888/sincity.php");
 
     }
+
 
     @Test
 
@@ -21,8 +27,12 @@ public class SinCityTests extends TestBase {
                 "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
+        spiderSinTags.add("murder");
+
+         spiderSin.setTags(spiderSinTags);
+
         fillSinInformation(spiderSin);
-        markTag("murder");
+       // markTag("murder");
 
     }
 
