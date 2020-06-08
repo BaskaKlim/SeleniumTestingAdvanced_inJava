@@ -22,19 +22,18 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
         fillSinInformation(spiderSin);
+        markTag();
 
-    }
-
-    private void fillSinInformation(String title, String author, String message) {
-        driver.findElement(By.xpath("//input[@name='title']")).sendKeys(title);
-        driver.findElement(By.xpath("//input[@name='author']")).sendKeys(author);
-        driver.findElement(By.name("message")).sendKeys(message);
     }
 
     private void fillSinInformation(Sin sin) {
         driver.findElement(By.xpath("//input[@name='title']")).sendKeys(sin.getTitle());
         driver.findElement(By.xpath("//input[@name='author']")).sendKeys(sin.getAuthor());
         driver.findElement(By.name("message")).sendKeys(sin.getMessage());
+    }
+
+    private void markTag(){
+        driver.findElement(By.xpath("//input[@value='murder']")).click();
     }
 
 }
