@@ -22,7 +22,7 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
         fillSinInformation(spiderSin);
-        markTag();
+        markTag("murder");
 
     }
 
@@ -32,8 +32,8 @@ public class SinCityTests extends TestBase {
         driver.findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
-    private void markTag(){
-        driver.findElement(By.xpath("//input[@value='murder']")).click();
+    private void markTag(String tag ){
+        driver.findElement(By.xpath("//input[@value='"+ tag +"']")).click();
     }
 
 }
