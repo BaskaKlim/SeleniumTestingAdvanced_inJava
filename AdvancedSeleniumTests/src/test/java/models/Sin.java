@@ -22,4 +22,16 @@ public class Sin {
     public String getMessage() {
         return message;
     }
+
+    public void setTitle(String newValue) {
+        title = newValue;
+    }
+
+    public void setAuthor(String newValue) {
+        author = newValue;
+    }
+
+    public void setMessage(String newValue) {
+        message = newValue;
+    }
 }

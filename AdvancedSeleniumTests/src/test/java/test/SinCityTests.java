@@ -19,6 +19,8 @@ public class SinCityTests extends TestBase {
         Sin spiderSin = new Sin("Zabil som pavuka",
                 "Jakub Milek",
                 "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
+
+        spiderSin.setTitle("Zabil som uz druheho pavuka");
         fillSinInformation(spiderSin);
 
     }
