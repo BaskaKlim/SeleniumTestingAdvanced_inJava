@@ -10,4 +10,16 @@ public class Sin {
         this.author = author;
         this.message = message;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 }
