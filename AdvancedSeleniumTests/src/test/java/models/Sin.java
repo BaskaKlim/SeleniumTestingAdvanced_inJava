@@ -1,9 +1,9 @@
 package models;
 
 public class Sin {
-    String title;
-    String author;
-    String message;
+    private String title;
+    private String author;
+    private String message;
 
     public Sin(String title, String author, String message) {
         this.title = title;
