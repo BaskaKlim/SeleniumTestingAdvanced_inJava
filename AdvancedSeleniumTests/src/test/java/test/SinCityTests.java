@@ -15,11 +15,16 @@ public class SinCityTests extends TestBase {
     @Test
 
     public void testNewSin() {
-        driver.findElement(By.xpath("//input[@name='title']")).sendKeys("Zabil som pavuka");
-        driver.findElement(By.xpath("//input[@name='author']")).sendKeys("Jakub Milek");
-        driver.findElement(By.name("message")).sendKeys("Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
-        //driver.findElement(By.xpath("//button[@type='submit']")).click();
+        fillSinInformation("Zabil som pavuka",
+                           "Jakub Milek",
+                            "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
 
+    }
+
+    private void fillSinInformation(String title, String author, String message) {
+        driver.findElement(By.xpath("//input[@name='title']")).sendKeys(title);
+        driver.findElement(By.xpath("//input[@name='author']")).sendKeys(author);
+        driver.findElement(By.name("message")).sendKeys(message);
     }
 
 }
