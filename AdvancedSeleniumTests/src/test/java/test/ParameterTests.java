@@ -6,7 +6,7 @@ import org.junit.runner.*;
 import org.junit.runners.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
-
+import base.*;
 
 //anotacia pre paramatricky test
 @RunWith(Parameterized.class)

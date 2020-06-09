@@ -2,6 +2,7 @@ package test;
 
 import org.junit.*;
 import org.openqa.selenium.*;
+import base.*;
 
 public class EventListenerActionsTests extends TestBase {
     @Before

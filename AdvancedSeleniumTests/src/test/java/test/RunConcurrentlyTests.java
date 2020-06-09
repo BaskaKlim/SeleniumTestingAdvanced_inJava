@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 import com.google.code.tempusfugit.concurrency.*;
 import com.google.code.tempusfugit.concurrency.annotations.*;
+import base.*;
 
 public class RunConcurrentlyTests extends TestBase {
     

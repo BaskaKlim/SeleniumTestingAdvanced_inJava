@@ -3,6 +3,7 @@ package test;
 import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
+import base.*;
 import models.*;
 
 public class SinCityTests extends TestBase {

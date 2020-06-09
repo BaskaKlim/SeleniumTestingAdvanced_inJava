@@ -5,6 +5,7 @@ import org.apache.poi.ss.usermodel.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
+import base.*;
 import helpers.*;
 
 public class PrimeTest extends TestBase {

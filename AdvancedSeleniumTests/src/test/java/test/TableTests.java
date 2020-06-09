@@ -3,6 +3,7 @@ package test;
 import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
+import base.*;
 
 public class TableTests extends TestBase {
 

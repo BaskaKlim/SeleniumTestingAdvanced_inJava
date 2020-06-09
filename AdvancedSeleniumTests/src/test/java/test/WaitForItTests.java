@@ -5,6 +5,7 @@ import org.junit.experimental.categories.*;
 import org.junit.rules.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
+import base.*;
 import categories.*;
 
 public class WaitForItTests extends TestBase {

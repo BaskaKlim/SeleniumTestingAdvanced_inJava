@@ -3,6 +3,7 @@ package test;
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
+import base.*;
 
 public class WaitForHatTests extends TestBase {
 
