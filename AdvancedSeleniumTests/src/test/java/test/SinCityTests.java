@@ -4,11 +4,12 @@ import java.util.*;
 import org.junit.*;
 import org.openqa.selenium.*;
 import base.*;
+import enumerators.*;
 import models.*;
 
 public class SinCityTests extends TestBase {
 
-    public List<String> spiderSinTags = new ArrayList<String>();
+    public List<SinTag> spiderSinTags = new ArrayList<SinTag>();
 
     @Before
 
@@ -25,8 +26,9 @@ public class SinCityTests extends TestBase {
                 "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
-        spiderSinTags.add("murder");
-        spiderSinTags.add("robbery");
+
+        spiderSinTags.add(SinTag.MURDER);
+        spiderSinTags.add(SinTag.ROBBERY);
 
         spiderSin.setTags(spiderSinTags);
 
@@ -41,9 +43,9 @@ public class SinCityTests extends TestBase {
         getDriver().findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
-    private void markTag(List<String> spiderSinTags) throws InterruptedException {
+    private void markTag(List<SinTag> spiderSinTags) throws InterruptedException {
 
-        for (String spiderSinTag : spiderSinTags) {
+        for (SinTag spiderSinTag : spiderSinTags) {
             getDriver().findElement(By.xpath("//input[@value='" + spiderSinTag + "']")).click();
             Thread.sleep(5000);
         }
