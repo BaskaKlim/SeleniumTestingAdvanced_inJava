@@ -1,11 +1,17 @@
 package enumerators;
 
 public enum SinTag {
-    MURDER,
-    HIJACK,
-    BLACKMAIL,
-    CAR_ACCIDENT,
-    ROBBERY;
+    MURDER("murder"),
+    HIJACK("hijack"),
+    BLACKMAIL ("blackmail"),
+    CAR_ACCIDENT ("car accident"),
+    ROBBERY("robbery");
+
+    String xpathValue;
+
+    SinTag(String xpathValue){
+        this.xpathValue = xpathValue;
+    }
     
 
 }
