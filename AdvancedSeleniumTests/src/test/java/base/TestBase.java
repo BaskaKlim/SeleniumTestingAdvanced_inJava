@@ -10,7 +10,7 @@ public class TestBase {
 
     public WebDriver driver;
     public StringBuffer verificationErrors = new StringBuffer();
-
+     public static final String BASE_URL = "http://localhost:8888/";
     @Before
 
     public void setUp() {

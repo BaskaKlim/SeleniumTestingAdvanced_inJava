@@ -9,7 +9,7 @@ public class WaitForHatTests extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get("http://localhost:8888/prestige.php");
+        driver.get(BASE_URL + "prestige.php");
     }
 
     @Test

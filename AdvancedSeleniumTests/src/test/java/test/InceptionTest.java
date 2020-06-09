@@ -11,7 +11,7 @@ public class InceptionTest extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get("http://localhost:8888/inception.php");
+        driver.get(BASE_URL + "inception.php");
         js = ((JavascriptExecutor) driver);
 
     }

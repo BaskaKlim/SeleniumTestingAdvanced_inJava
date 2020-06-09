@@ -10,7 +10,7 @@ public class WaitForMimonsTests extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get("http://localhost:8888/minions.php");
+        driver.get(BASE_URL + "minions.php");
     }
 
     @Test

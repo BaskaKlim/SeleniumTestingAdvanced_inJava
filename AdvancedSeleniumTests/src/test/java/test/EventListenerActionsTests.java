@@ -8,7 +8,7 @@ public class EventListenerActionsTests extends TestBase {
     @Before
 
     public void OpenUp() {
-        driver.get("http://localhost:8888/waitforit.php");
+        driver.get(BASE_URL + "waitforit.php");
 
     }
 

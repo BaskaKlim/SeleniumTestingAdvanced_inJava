@@ -15,7 +15,7 @@ public class PrimeTest extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get("http://localhost:8888/primenumber.php");
+        driver.get(BASE_URL + "primenumber.php");
 
     }
 

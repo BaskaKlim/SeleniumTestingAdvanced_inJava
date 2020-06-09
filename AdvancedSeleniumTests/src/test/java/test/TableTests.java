@@ -9,7 +9,7 @@ public class TableTests extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get("http://localhost:8888/tabulka.php");
+        driver.get(BASE_URL + "tabulka.php");
     }
 
     @Test

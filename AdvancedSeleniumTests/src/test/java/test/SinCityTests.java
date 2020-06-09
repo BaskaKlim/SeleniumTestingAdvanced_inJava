@@ -13,7 +13,7 @@ public class SinCityTests extends TestBase {
     @Before
 
     public void OpenUp() {
-        driver.get("http://localhost:8888/sincity.php");
+        driver.get(BASE_URL + "sincity.php");
 
     }
 
