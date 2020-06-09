@@ -7,9 +7,7 @@ import models.*;
 
 public class SinCityTests extends TestBase {
 
-
     public List<String> spiderSinTags = new ArrayList<String>();
-
 
     @Before
 
@@ -18,21 +16,21 @@ public class SinCityTests extends TestBase {
 
     }
 
-
     @Test
 
-    public void testNewSin() {
+    public void testNewSin() throws InterruptedException {
         Sin spiderSin = new Sin("Zabil som pavuka",
                 "Jakub Milek",
                 "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
         spiderSinTags.add("murder");
+        spiderSinTags.add("robbery");
 
-         spiderSin.setTags(spiderSinTags);
+        spiderSin.setTags(spiderSinTags);
 
         fillSinInformation(spiderSin);
-       // markTag("murder");
+        markTag(spiderSinTags);
 
     }
 
@@ -42,8 +40,12 @@ public class SinCityTests extends TestBase {
         driver.findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
-    private void markTag(String tag ){
-        driver.findElement(By.xpath("//input[@value='"+ tag +"']")).click();
+    private void markTag(List<String> spiderSinTags) throws InterruptedException {
+
+        for (String spiderSinTag : spiderSinTags) {
+            driver.findElement(By.xpath("//input[@value='" + spiderSinTag + "']")).click();
+            Thread.sleep(5000);
+        }
     }
 
 }
