@@ -12,7 +12,7 @@ public class WebDriverSingleton {
         driver = new ChromeDriver();
     }
 
-    private static WebDriver getWebDriverInstance() {
+    public static WebDriver getWebDriverInstance() {
         if (driver == null) {
             initialize();
         }

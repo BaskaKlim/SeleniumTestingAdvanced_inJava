@@ -2,26 +2,23 @@ package base;
 
 import org.junit.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.*;
 
 import static junit.framework.TestCase.*;
 
 public class TestBase {
 
-    public WebDriver driver;
     public StringBuffer verificationErrors = new StringBuffer();
     public static final String BASE_URL = "http://localhost:8888/";
 
     public WebDriver getDriver() {
-        return driver;
+        return WebDriverSingleton.getWebDriverInstance();
     }
 
     @Before
 
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        WebDriverSingleton.getWebDriverInstance();
+        WebDriverSingleton.getWebDriverInstance().manage().window().maximize();
 
     }
 
@@ -32,8 +29,8 @@ public class TestBase {
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
         }
-        driver.close();
-        driver.quit();
+        WebDriverSingleton.getWebDriverInstance().close();
+        WebDriverSingleton.getWebDriverInstance().quit();
     }
 
 }

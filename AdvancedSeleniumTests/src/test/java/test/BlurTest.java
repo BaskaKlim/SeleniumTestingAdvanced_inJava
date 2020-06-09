@@ -23,12 +23,12 @@ public class BlurTest extends TestBase {
         getDriver().findElement(By.id("waitForBlur")).sendKeys("Testovaci text");
 
         //make tested action
-        JavascriptExecutor js = ((JavascriptExecutor) driver);
-        js.executeScript("arguments[0].blur()", driver.findElement(By.id("waitForBlur")));
+        JavascriptExecutor js = ((JavascriptExecutor)  getDriver());
+        js.executeScript("arguments[0].blur()",  getDriver().findElement(By.id("waitForBlur")));
 
         //wait for expected result
-        new WebDriverWait(driver, 5).until(ExpectedConditions.attributeToBe
-                (driver.findElement(By.id("waitForBlur")), "value", "blured!"));
+        new WebDriverWait( getDriver(), 5).until(ExpectedConditions.attributeToBe
+                ( getDriver().findElement(By.id("waitForBlur")), "value", "blured!"));
     }
 
 }

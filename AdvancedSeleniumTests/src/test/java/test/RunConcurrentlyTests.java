@@ -32,12 +32,12 @@ public class RunConcurrentlyTests extends TestBase {
         getDriver().findElement(By.id("startWaitForText")).click();
 
 
-        new WebDriverWait(driver, 5)
+        new WebDriverWait( getDriver(), 5)
                 .until(ExpectedConditions.attributeToBe(
                         By.id("waitForTextInput"), "value", "dary !!!"));
 
         
-        System.out.println(driver.findElement(By.id("waitForTextInput")).getAttribute("value"));
+        System.out.println( getDriver().findElement(By.id("waitForTextInput")).getAttribute("value"));
 
         counter.getAndIncrement();
         System.out.println(counter);
