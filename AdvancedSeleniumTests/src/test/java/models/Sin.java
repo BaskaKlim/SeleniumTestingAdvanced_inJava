@@ -1,12 +1,13 @@
 package models;
 
 import java.util.*;
+import enumerators.*;
 
 public class Sin {
     private String title;
     private String author;
     private String message;
-    private List<String> tags;
+    private List<SinTag> tags;
 
     public Sin(String title, String author, String message) {
         this.title = title;
@@ -14,11 +15,11 @@ public class Sin {
         this.message = message;
     }
 
-    public List<String> getTags() {
+    public List<SinTag> getTags() {
         return tags;
     }
 
-    public void setTags(List<String> newValue) {
+    public void setTags(List<SinTag> newValue) {
         tags = newValue;
     }
 
