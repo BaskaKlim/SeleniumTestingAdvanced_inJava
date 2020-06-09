@@ -10,21 +10,21 @@ public class ScrollToTests extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get(BASE_URL + "tabulka.php");
-        js = ((JavascriptExecutor) driver);
+        getDriver().get(BASE_URL + "tabulka.php");
+        js = ((JavascriptExecutor) getDriver());
     }
 
     @Test
 
     public void scrollToLastRow() {
-        WebElement lastRow = driver.findElement(By.xpath("//table/tbody/tr[last()]"));
+        WebElement lastRow = getDriver().findElement(By.xpath("//table/tbody/tr[last()]"));
         js.executeScript("arguments[0].scrollIntoView()", lastRow);
     }
 
     @Test
 
     public void scrollToExactRow() {
-        WebElement lastRow = driver.findElement(By.xpath("//table/tbody/tr[5]"));
+        WebElement lastRow = getDriver().findElement(By.xpath("//table/tbody/tr[5]"));
         js.executeScript("arguments[0].scrollIntoView(true)", lastRow);
     }
 

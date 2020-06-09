@@ -30,14 +30,14 @@ public class ParameterTests extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get(BASE_URL + "primenumber.php");
+        getDriver().get(BASE_URL + "primenumber.php");
 
     }
 
     @Test
     public void primeNumberTestUsingParameters() {
-        WebElement numberInput = driver.findElement(By.xpath("//input[@type='number']"));
-        WebElement button = driver.findElement(By.cssSelector("button.btn"));
+        WebElement numberInput = getDriver().findElement(By.xpath("//input[@type='number']"));
+        WebElement button = getDriver().findElement(By.cssSelector("button.btn"));
 
         numberInput.clear();
         numberInput.sendKeys(String.valueOf(number));
@@ -52,10 +52,10 @@ public class ParameterTests extends TestBase {
 
     private void checkResult(boolean expectedPrimeStatus) {
         if (expectedPrimeStatus == true) {
-            new WebDriverWait(driver, 5).until(ExpectedConditions.
+            new WebDriverWait(getDriver(), 5).until(ExpectedConditions.
                     visibilityOfElementLocated(By.xpath("//div[text()='Optimus approves']")));
         } else {
-            new WebDriverWait(driver, 5).until(ExpectedConditions.
+            new WebDriverWait(getDriver(), 5).until(ExpectedConditions.
                     visibilityOfElementLocated(By.xpath("//div[text()='Optimus is sad']")));
 
         }

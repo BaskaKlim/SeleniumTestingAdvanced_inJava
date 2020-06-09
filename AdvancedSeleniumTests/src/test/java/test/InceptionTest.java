@@ -11,8 +11,8 @@ public class InceptionTest extends TestBase {
 
     @Before
     public void openUp() {
-        driver.get(BASE_URL + "inception.php");
-        js = ((JavascriptExecutor) driver);
+        getDriver().get(BASE_URL + "inception.php");
+        js = ((JavascriptExecutor) getDriver());
 
     }
 
@@ -20,28 +20,28 @@ public class InceptionTest extends TestBase {
 
     public void testMultipleWindowsShowing() {
         //test variables inicialization
-        String parentWindow = driver.getWindowHandle();
+        String parentWindow = getDriver().getWindowHandle();
 
         //action
-        driver.findElement(By.id("letsGoDeeper")).click();
+        getDriver().findElement(By.id("letsGoDeeper")).click();
 
         //wait for all windows I expected
-        new WebDriverWait(driver, 5).until(ExpectedConditions.numberOfWindowsToBe(2));
+        new WebDriverWait(getDriver(), 5).until(ExpectedConditions.numberOfWindowsToBe(2));
 
         //switch to new window to test webelement input
-        driver.getWindowHandles();
+        getDriver().getWindowHandles();
         for (int i = 0; i < 5; i++) {
 
-            for (String window : driver.getWindowHandles()) {
-                driver.switchTo().window(window);
+            for (String window : getDriver().getWindowHandles()) {
+                getDriver().switchTo().window(window);
 
             }
             // test action
-            driver.findElement(By.xpath("//input[1]")).sendKeys("testovaci text");
-            driver.findElement(By.id("letsGoDeeper")).click();
+            getDriver().findElement(By.xpath("//input[1]")).sendKeys("testovaci text");
+            getDriver().findElement(By.id("letsGoDeeper")).click();
         }
-        driver.close();
-        driver.switchTo().window(parentWindow);
+        getDriver().close();
+        getDriver().switchTo().window(parentWindow);
     }
 
 }

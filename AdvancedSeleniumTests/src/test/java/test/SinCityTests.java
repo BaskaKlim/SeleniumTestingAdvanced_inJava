@@ -13,7 +13,7 @@ public class SinCityTests extends TestBase {
     @Before
 
     public void OpenUp() {
-        driver.get(BASE_URL + "sincity.php");
+        getDriver().get(BASE_URL + "sincity.php");
 
     }
 
@@ -36,15 +36,15 @@ public class SinCityTests extends TestBase {
     }
 
     private void fillSinInformation(Sin sin) {
-        driver.findElement(By.xpath("//input[@name='title']")).sendKeys(sin.getTitle());
-        driver.findElement(By.xpath("//input[@name='author']")).sendKeys(sin.getAuthor());
-        driver.findElement(By.name("message")).sendKeys(sin.getMessage());
+        getDriver().findElement(By.xpath("//input[@name='title']")).sendKeys(sin.getTitle());
+        getDriver().findElement(By.xpath("//input[@name='author']")).sendKeys(sin.getAuthor());
+        getDriver().findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
     private void markTag(List<String> spiderSinTags) throws InterruptedException {
 
         for (String spiderSinTag : spiderSinTags) {
-            driver.findElement(By.xpath("//input[@value='" + spiderSinTag + "']")).click();
+            getDriver().findElement(By.xpath("//input[@value='" + spiderSinTag + "']")).click();
             Thread.sleep(5000);
         }
     }

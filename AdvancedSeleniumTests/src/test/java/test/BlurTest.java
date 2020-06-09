@@ -10,7 +10,7 @@ public class BlurTest extends TestBase {
     @Before
 
     public void OpenUp() {
-        driver.get(BASE_URL + "waitforit.php");
+        getDriver().get(BASE_URL + "waitforit.php");
 
     }
 
@@ -20,7 +20,7 @@ public class BlurTest extends TestBase {
 
     public void testBlur() {
         //find elements to test
-        driver.findElement(By.id("waitForBlur")).sendKeys("Testovaci text");
+        getDriver().findElement(By.id("waitForBlur")).sendKeys("Testovaci text");
 
         //make tested action
         JavascriptExecutor js = ((JavascriptExecutor) driver);

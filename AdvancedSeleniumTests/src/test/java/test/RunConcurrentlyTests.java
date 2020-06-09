@@ -18,7 +18,7 @@ public class RunConcurrentlyTests extends TestBase {
     @Before
 
     public void OpenUp() {
-        driver.get(BASE_URL + "waitforit.php");
+        getDriver().get(BASE_URL + "waitforit.php");
 
     }
 
@@ -29,7 +29,7 @@ public class RunConcurrentlyTests extends TestBase {
 
     public void waitForInputTest() throws InterruptedException {
 
-        driver.findElement(By.id("startWaitForText")).click();
+        getDriver().findElement(By.id("startWaitForText")).click();
 
 
         new WebDriverWait(driver, 5)
