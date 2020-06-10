@@ -9,8 +9,6 @@ import models.*;
 
 public class SinCityTests extends TestBase {
 
-    public List<SinTag> spiderSinTags = new ArrayList<SinTag>();
-
     @Before
 
     public void OpenUp() {
@@ -27,13 +25,14 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTitle("Zabil som uz druheho pavuka");
 
+        List<SinTag> spiderSinTags = new ArrayList<SinTag>();
         spiderSinTags.add(SinTag.MURDER);
         spiderSinTags.add(SinTag.ROBBERY);
 
         spiderSin.setTags(spiderSinTags);
 
         fillSinInformation(spiderSin);
-        markTag(spiderSinTags);
+        markTag(spiderSin.getTags());
 
     }
 
@@ -43,10 +42,10 @@ public class SinCityTests extends TestBase {
         getDriver().findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
-    private void markTag(List<SinTag> spiderSinTags) throws InterruptedException {
+    private void markTag(List<SinTag> tags) throws InterruptedException {
 
-        for (SinTag spiderSinTag : spiderSinTags) {
-            getDriver().findElement(By.xpath("//input[@value='" + spiderSinTag + "']")).click();
+        for (SinTag tag : tags) {
+            getDriver().findElement(By.xpath("//input[@value='" + tag.getXpathValue() + "']")).click();
             Thread.sleep(5000);
         }
     }
