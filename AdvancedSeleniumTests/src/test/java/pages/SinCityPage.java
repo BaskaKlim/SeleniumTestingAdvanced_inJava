@@ -2,6 +2,7 @@ package pages;
 
 import java.util.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.*;
 import base.*;
 import enumerators.*;
 import models.*;
@@ -9,10 +10,16 @@ import models.*;
 public class SinCityPage {
 
     private WebDriver driver;
+    @FindBy(name = "title")
+    private WebElement titleInput;
+
     //konstruktor
     public SinCityPage(){
     driver = WebDriverSingleton.getWebDriverInstance();
+    PageFactory.initElements(driver,this);
     }
+
+
    public  void fillSinInformation(Sin sin) {
         driver.findElement(By.xpath("//input[@name='title']")).sendKeys(sin.getTitle());
         driver.findElement(By.xpath("//input[@name='author']")).sendKeys(sin.getAuthor());
