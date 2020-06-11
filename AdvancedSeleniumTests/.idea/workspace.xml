@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/StreamTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+            <state relative-caret-position="386">
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -203,7 +203,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591903178236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591903918477" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -245,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamTests">
+  <component name="RunManager" selected="JUnit.StreamTests.getExactNamesToTheListOfString">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -310,25 +310,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunConcurrentlyTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium-advanced-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.RunConcurrentlyTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SinCityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium-advanced-java" />
       <extension name="coverage">
@@ -367,6 +348,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamTests.getExactNamesToTheListOfString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-advanced-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StreamTests" />
+      <option name="METHOD_NAME" value="getExactNamesToTheListOfString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -391,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamTests.getExactNamesToTheListOfString" />
         <item itemvalue="JUnit.StreamTests" />
         <item itemvalue="JUnit.SinCityTests" />
         <item itemvalue="JUnit.EventListenerActionsTests" />
         <item itemvalue="JUnit.BlurTest" />
-        <item itemvalue="JUnit.RunConcurrentlyTests" />
       </list>
     </recent_temporary>
   </component>
@@ -419,20 +420,11 @@
       <workItem from="1590690957955" duration="8122000" />
       <workItem from="1590771599929" duration="11473000" />
       <workItem from="1591043439695" duration="10032000" />
-      <workItem from="1591389370258" duration="25586000" />
+      <workItem from="1591389370258" duration="26822000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SinCityTests - 2020.06.10 at 22h 53m 11s.xml">
-      <configuration name="SinCityTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinCityTests - 2020.06.10 at 22h 56m 52s.xml">
-      <configuration name="SinCityTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SinCityTests - 2020.06.10 at 23h 04m 16s.xml">
-      <configuration name="SinCityTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SinCityTests - 2020.06.11 at 19h 59m 40s.xml">
       <configuration name="SinCityTests" configurationId="JUnit" />
     </history-entry>
@@ -454,9 +446,18 @@
     <history-entry file="StreamTests - 2020.06.11 at 20h 30m 18s.xml">
       <configuration name="StreamTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StreamTests - 2020.06.11 at 21h 19m 46s.xml">
+      <configuration name="StreamTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamTests - 2020.06.11 at 21h 30m 25s.xml">
+      <configuration name="StreamTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamTests_getExactNamesToTheListOfString - 2020.06.11 at 21h 32m 20s.xml">
+      <configuration name="StreamTests.getExactNamesToTheListOfString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115084000" />
+    <option name="totallyTimeSpent" value="116320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="0" />
@@ -471,7 +472,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19863014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/StreamTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        <state relative-caret-position="386">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>
