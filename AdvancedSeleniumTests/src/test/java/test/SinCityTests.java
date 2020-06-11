@@ -36,11 +36,6 @@ public class SinCityTests extends TestBase {
 
     }
 
-    private void fillSinInformation(Sin sin) {
-        getDriver().findElement(By.xpath("//input[@name='title']")).sendKeys(sin.getTitle());
-        getDriver().findElement(By.xpath("//input[@name='author']")).sendKeys(sin.getAuthor());
-        getDriver().findElement(By.name("message")).sendKeys(sin.getMessage());
-    }
 
     private void markTag(List<SinTag> tags) throws InterruptedException {
 
