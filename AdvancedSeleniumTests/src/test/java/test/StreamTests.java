@@ -23,8 +23,8 @@ public class StreamTests extends TestBase {
             if("Vendelin".equals(getFirstName(row))) {
                vendelinsSurnames.add(getSurname(row));
             }
-
         }
+        System.out.println(vendelinsSurnames);
     }
 
     //funkcia na vybranie stlpca s menom, s parametrom webelement riadok
