@@ -2,7 +2,6 @@ package test;
 
 import java.util.*;
 import org.junit.*;
-import org.openqa.selenium.*;
 import base.*;
 import enumerators.*;
 import models.*;
@@ -35,7 +34,7 @@ public class SinCityTests extends TestBase {
         spiderSin.setTags(spiderSinTags);
 
         sinCityPage.fillSinInformation(spiderSin);
-        markTag(spiderSin.getTags());
+        sinCityPage.markTag(spiderSin.getTags());
 
     }
 

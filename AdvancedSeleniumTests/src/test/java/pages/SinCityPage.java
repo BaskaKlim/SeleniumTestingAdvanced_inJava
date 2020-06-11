@@ -8,7 +8,7 @@ import models.*;
 
 public class SinCityPage {
 
-    WebDriver driver;
+    private WebDriver driver;
     //konstruktor
     public SinCityPage(){
     driver = WebDriverSingleton.getWebDriverInstance();
