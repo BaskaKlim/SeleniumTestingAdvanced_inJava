@@ -29,6 +29,7 @@ public class StreamTests extends TestBase {
         List<String> vendelinsSurnames = new ArrayList<>();
 
         vendelinsSurnames = rows.stream().filter(row -> getFirstName(row).equals("Vendelin"))
+                //this:: je referencia methody, lambda
                 .map(this::getSurname)
                 .collect(Collectors.toList());
         System.out.println(vendelinsSurnames);
