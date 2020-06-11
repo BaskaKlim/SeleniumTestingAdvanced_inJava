@@ -17,9 +17,13 @@ public class StreamTests extends TestBase {
 
     public void testHighLight() {
         List<WebElement> rows = getDriver().findElements(By.xpath("//table/tbody/tr"));
+        List<String> vendelinsSurnames = new ArrayList<>();
 
         for (WebElement row : rows) {
-            System.out.println(getFirstName(row));
+            if("Vendelin".equals(getFirstName(row))) {
+               vendelinsSurnames.add(getSurname(row));
+            }
+
         }
     }
 
