@@ -29,7 +29,7 @@ public class StreamTests extends TestBase {
         List<String> vendelinsSurnames = new ArrayList<>();
 
         vendelinsSurnames = rows.stream().filter(row -> getFirstName(row).equals("Vendelin"))
-                .map(row -> getSurname(row))
+                .map(this::getSurname)
                 .collect(Collectors.toList());
         System.out.println(vendelinsSurnames);
     }
