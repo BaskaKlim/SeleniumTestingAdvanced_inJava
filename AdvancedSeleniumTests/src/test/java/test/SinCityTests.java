@@ -6,6 +6,7 @@ import org.openqa.selenium.*;
 import base.*;
 import enumerators.*;
 import models.*;
+import pages.*;
 
 public class SinCityTests extends TestBase {
 
@@ -19,6 +20,8 @@ public class SinCityTests extends TestBase {
     @Test
 
     public void testNewSin() throws InterruptedException {
+        SinCityPage sinCityPage = new SinCityPage();
+
         Sin spiderSin = new Sin("Zabil som pavuka",
                 "Jakub Milek",
                 "Zlakol som sa, ked ku mne v noci prisiel a zabil som ho");
@@ -31,7 +34,7 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTags(spiderSinTags);
 
-        fillSinInformation(spiderSin);
+        sinCityPage.fillSinInformation(spiderSin);
         markTag(spiderSin.getTags());
 
     }
