@@ -40,12 +40,4 @@ public class SinCityTests extends TestBase {
     }
 
 
-    private void markTag(List<SinTag> tags) throws InterruptedException {
-
-        for (SinTag tag : tags) {
-            getDriver().findElement(By.xpath("//input[@value='" + tag.getXpathValue() + "']")).click();
-            Thread.sleep(5000);
-        }
-    }
-
 }
