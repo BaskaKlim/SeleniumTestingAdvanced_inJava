@@ -7,6 +7,8 @@ import base.*;
 import enumerators.*;
 import models.*;
 
+import static base.TestBase.*;
+
 public class SinCityPage {
 
     private WebDriver driver;
@@ -32,6 +34,10 @@ public class SinCityPage {
         PageFactory.initElements(driver, this);
     }
 
+
+    public void openPage(){
+       driver.get(BASE_URL + "sincity.php");
+    }
     public void fillSinInformation(Sin sin) {
         titleInput.sendKeys(sin.getTitle());
         authorInput.sendKeys(sin.getAuthor());

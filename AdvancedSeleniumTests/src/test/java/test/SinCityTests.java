@@ -9,13 +9,6 @@ import pages.*;
 
 public class SinCityTests extends TestBase {
 
-    @Before
-
-    public void OpenUp() {
-        getDriver().get(BASE_URL + "sincity.php");
-
-    }
-
     @Test
 
     public void testNewSin() throws InterruptedException {
