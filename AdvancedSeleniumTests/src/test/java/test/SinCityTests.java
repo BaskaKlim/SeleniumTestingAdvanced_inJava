@@ -26,6 +26,7 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTags(spiderSinTags);
 
+        sinCityPage.openPage();
         sinCityPage.fillSinInformation(spiderSin);
         sinCityPage.markTag(spiderSin.getTags());
         sinCityPage.confessSin();
