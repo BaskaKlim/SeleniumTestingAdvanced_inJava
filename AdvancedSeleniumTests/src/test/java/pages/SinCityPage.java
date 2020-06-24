@@ -10,7 +10,7 @@ import models.*;
 public class SinCityPage {
 
     private WebDriver driver;
-
+    //pagefactory, anotacie
     @FindBy(name = "title")
     private WebElement titleInput;
 
@@ -20,9 +20,11 @@ public class SinCityPage {
     @FindBy(name = "message")
     private WebElement messageInput;
 
-
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement confessButton;
+
+    @FindBy(css = "div.sinsListArea")
+    private WebElement sinListArea;
 
     //konstruktor
     public SinCityPage() {
@@ -43,8 +45,13 @@ public class SinCityPage {
             Thread.sleep(5000);
         }
     }
-    public void confessSin(){
+
+    public void confessSin() {
         confessButton.click();
     }
 
+    public void openSinDetail(Sin spiderSin) {
+        WebElement listOfSins = sinListArea.findElement(By.cssSelector("ul.list-of-sins"));
+        listOfSins.findElement(By.xpath("./li[contains(text(),'" + spiderSin.getTitle() + "' )]")).click();
+    }
 }
