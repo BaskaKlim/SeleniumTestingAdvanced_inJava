@@ -12,6 +12,7 @@ import static base.TestBase.*;
 public class SinCityPage {
 
     private WebDriver driver;
+    private static final String PAGE_URL = "sincity.php ";
     //pagefactory, anotacie
     @FindBy(name = "title")
     private WebElement titleInput;
@@ -36,7 +37,7 @@ public class SinCityPage {
 
 
     public void openPage(){
-       driver.get(BASE_URL + "sincity.php");
+       driver.get(BASE_URL + PAGE_URL );
     }
     public void fillSinInformation(Sin sin) {
         titleInput.sendKeys(sin.getTitle());
