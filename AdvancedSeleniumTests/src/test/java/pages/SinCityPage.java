@@ -64,5 +64,8 @@ public class SinCityPage {
     }
 
     public void checkSinStatus(Sin spiderSin) {
+        //1. finding element of sin
+        //2.  get text pending or forgiven
+        //3. assert expected with real sate
     }
 }
