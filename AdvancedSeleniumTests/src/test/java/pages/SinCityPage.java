@@ -63,4 +63,6 @@ public class SinCityPage {
         Thread.sleep(5000);
     }
 
+    public void checkSinStatus(Sin spiderSin) {
+    }
 }

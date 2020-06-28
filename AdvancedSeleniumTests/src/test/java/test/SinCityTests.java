@@ -33,6 +33,7 @@ public class SinCityTests extends TestBase {
         sinCityPage.markTag(spiderSin.getTags());
         sinCityPage.confessSin();
         sinCityPage.openSinDetail(spiderSin);
+        sinCityPage.checkSinStatus(spiderSin);
 
 
     }
