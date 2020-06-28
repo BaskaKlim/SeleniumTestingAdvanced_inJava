@@ -26,11 +26,14 @@ public class SinCityTests extends TestBase {
 
         spiderSin.setTags(spiderSinTags);
 
+
+        //test fill the sin and confest
         sinCityPage.openPage();
         sinCityPage.fillSinInformation(spiderSin);
         sinCityPage.markTag(spiderSin.getTags());
         sinCityPage.confessSin();
         sinCityPage.openSinDetail(spiderSin);
+
 
     }
 

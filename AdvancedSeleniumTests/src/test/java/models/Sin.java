@@ -8,11 +8,14 @@ public class Sin {
     private String author;
     private String message;
     private List<SinTag> tags;
+    private boolean forgiven;
 
     public Sin(String title, String author, String message) {
         this.title = title;
         this.author = author;
         this.message = message;
+        this.forgiven = false;
+
     }
 
     public List<SinTag> getTags() {
@@ -45,5 +48,13 @@ public class Sin {
 
     public void setMessage(String newValue) {
         message = newValue;
+    }
+
+    public boolean isForgiven() {
+        return forgiven;
+    }
+
+    public void setForgiven(boolean newValue) {
+        forgiven = newValue;
     }
 }

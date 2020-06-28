@@ -57,8 +57,10 @@ public class SinCityPage {
         confessButton.click();
     }
 
-    public void openSinDetail(Sin spiderSin) {
+    public void openSinDetail(Sin spiderSin) throws InterruptedException {
         WebElement listOfSins = sinListArea.findElement(By.cssSelector("ul.list-of-sins"));
         listOfSins.findElement(By.xpath("./li[contains(text(),'" + spiderSin.getTitle() + "' )]")).click();
+        Thread.sleep(5000);
     }
+
 }
