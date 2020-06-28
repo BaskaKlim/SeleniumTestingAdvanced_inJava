@@ -65,7 +65,9 @@ public class SinCityPage {
 
     public void checkSinStatus(Sin spiderSin) {
         //1. finding element of sin
+        WebElement listOfSins = sinListArea.findElement(By.cssSelector("ul.list-of-sins"));
+        WebElement sin = listOfSins.findElement(By.xpath("./li[contains(text(),'" + spiderSin.getTitle() + "')]"));
         //2.  get text pending or forgiven
-        //3. assert expected with real sate
+        // 3. assert expected with real sate
     }
 }
